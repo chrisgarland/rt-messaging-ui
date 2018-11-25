@@ -6,9 +6,7 @@ import {CreateChannelForm} from './CreateChannelForm';
 
 interface Props {
     channels: ChannelType[],
-
     addChannel(channelName: string): void
-
     setChannel(activeChannel: string): void
 }
 
